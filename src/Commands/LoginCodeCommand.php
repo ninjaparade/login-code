@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Ninjaparade\LoginCode\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LoginCodeCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'login-code';
 
     public $description = 'My command';
 
