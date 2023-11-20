@@ -2,9 +2,9 @@
 
 namespace Ninjaparade\LoginCode;
 
+use Ninjaparade\LoginCode\Commands\LoginCodeCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Ninjaparade\LoginCode\Commands\LoginCodeCommand;
 
 class LoginCodeServiceProvider extends PackageServiceProvider
 {
